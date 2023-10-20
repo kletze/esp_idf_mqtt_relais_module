@@ -6,14 +6,9 @@ cmake_minimum_required(VERSION 3.16)
 # This example uses an extra component for common functions such as Wi-Fi and Ethernet connection.
 set(EXTRA_COMPONENT_DIRS $ENV{IDF_PATH}/examples/common_components/protocol_examples_common)
 
-# The code also uses uthash from the git repo
-#set(EXTRA_COMPONENT_DIRS ext_libs/uthash/include)
-
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(mqtt_ssl_mutual_auth)
 
-#target_add_binary_data(${CMAKE_PROJECT_NAME}.elf "main/client.crt" TEXT)
-#target_add_binary_data(${CMAKE_PROJECT_NAME}.elf "main/client.key" TEXT)
 target_add_binary_data(${CMAKE_PROJECT_NAME}.elf "main/ca.crt" TEXT)
 
 
