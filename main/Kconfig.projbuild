@@ -1,0 +1,21 @@
+menu "Relais Configuration"
+
+    config TAG_NAME
+        string "MQTT user name of the tag"
+        default "Garage"
+        help
+            Enter the name of the tag here. This is also the MQTT-user name.
+
+    config TAG_PASSWORD
+        string "MQTT password of the tag"
+        default "MYSupersecurepassword0815!"
+        help    
+            Enter the MQTT-Password here.
+
+    config BROKER_ADDRESS
+        string "Address of the broker"
+        default "mqtts://test.mosquitto.org:8884"
+        help
+            Enter the address of your MQTT broker here.
+
+endmenu

@@ -1,0 +1,11 @@
+# Ignore files with .ca, .crt, and .key extensions
+*.ca
+*.crt
+*.key
+
+# Ignore the sdkconfig file
+sdkconfig
+sdkconfig.old
+
+# Ignore build directory
+build/
