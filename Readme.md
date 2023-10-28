@@ -4,7 +4,7 @@ via MQTT.
 ## Installation:
 For the version with eight relais, there are [stl-files](https://github.com/kletze/esp_idf_mqtt_relais_module/tree/main/stl_files) available for 3D-printing an insulating case for the module.
 I have installed the whole thing on a DIN rail in the fuse box of our garage and can use it to control the lights:
-![image]([files://C:/Users/jzhang/Desktop/Isolated.png](https://github.com/kletze/esp_idf_mqtt_relais_module/blob/main/pictures/installed_hardware/IMG_20231019_185328.jpg)https://github.com/kletze/esp_idf_mqtt_relais_module/blob/main/pictures/installed_hardware/IMG_20231019_185328.jpg)
+![image](https://github.com/kletze/esp_idf_mqtt_relais_module/blob/main/pictures/installed_hardware/IMG_20231019_185328.jpg)
 
 ## Warning:
 Only use the relais moduel for controling mains voltage if you are a trained electrician.
